@@ -18,13 +18,10 @@ abstract class Parent
 	}
 }
 public class abstract1 {
-
 	public static void main(String[] args) {
 		Sub1 s1=new Sub1();
 		Sub2 s2=new Sub2();
 		s1.message();
 		s2.message();
-
 	}
-
 }
