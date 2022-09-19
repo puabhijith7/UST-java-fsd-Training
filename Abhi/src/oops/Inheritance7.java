@@ -11,21 +11,21 @@ class BankA extends Bank
 	public void getBalance()
 	{
 		//super.getBalance();
-		System.out.println("Bal=1000");
+		System.out.println("Bal=100");
 	}
 }
 class BankB extends Bank
 {
 	public void getBalance()
 	{
-		System.out.println("Bal=1500");
+		System.out.println("Bal=150");
 	}
 }
 class BankC extends Bank
 {
 	public void getBalance()
 	{
-		System.out.println("Bal=2000");
+		System.out.println("Bal=200");
 	}
 }
 public class Inheritance7 {
