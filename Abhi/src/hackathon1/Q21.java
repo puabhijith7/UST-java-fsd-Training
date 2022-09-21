@@ -1,7 +1,8 @@
-package aa;
-public class Diamondfull {   
+package hackathon1;
+
+public class Q21 {   
 	public static void main(String[] args) {
-		for (int i=0;i<5;i++)
+		for (int i=0;i<4;i++)
 		{
 			int c=i;
 			while(c!=4)
@@ -9,13 +10,13 @@ public class Diamondfull {
 				System.out.print(" ");
 				c++;
 			}			
-			for (int j=0;j<i;j++)
+			for (int j=0;j<=i;j++)
 			{				
 				System.out.print("* ");
 			}		
 			System.out.println();
 		}
-		for (int i=4;i>0;i--)
+		for (int i=3;i>0;i--)
 		{
 			int c=i;
 			while(c!=5)
@@ -23,7 +24,7 @@ public class Diamondfull {
 				System.out.print(" ");
 				c++;
 			}				
-			for (int j=i;j>1;j--)
+			for (int j=i;j>=1;j--)
 			{				
 				System.out.print("* ");
 			}
@@ -33,4 +34,3 @@ public class Diamondfull {
 
 	}
 }
-
