@@ -6,8 +6,8 @@ public static void main (String[] args) {
         
         
         LinkedList<String> list = new LinkedList<String>();
-        list.add("Geek");
-        list.add("for");
+        list.add("hello");
+        list.add("hi");
         list.add("Geeks");
         list.add("2020");
         list.add("2021");

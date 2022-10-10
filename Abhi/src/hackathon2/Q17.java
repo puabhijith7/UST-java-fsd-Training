@@ -14,9 +14,5 @@ public class Q17 {
 		Set<Integer> compare = new HashSet<Integer>(s1);
 		compare.retainAll(s2);
 		System.out.println(compare);
-		
-		
-
 	}
-
 }

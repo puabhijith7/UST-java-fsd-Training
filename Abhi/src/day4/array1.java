@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class array1 {
 
 	public static void main(String[] args) {
-		int array[]=new int[10];
-		int a;
+		String array[]=new String[10];
+		String a;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter elements");
 		for (int i=0;i<10;i++)
 		{
-			a=sc.nextInt();
+			a=sc.nextLine();
 			array[i]=a;
 		}
 		System.out.println("Elements are");
