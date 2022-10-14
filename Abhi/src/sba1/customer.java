@@ -4,10 +4,6 @@ class customer {
 	 public int getCustomerid() {
 	        return customerid;
 	    }
-
-	 
-
-
 	    public void setCustomerid(int customerid) {
 	        this.customerid = customerid;
 	    }
@@ -47,7 +43,7 @@ class customer {
 	 String CustomerName;
 	 String emailid;
 	 
-	 
+	 //constructor
 	public customer(int customerid,String CustomerName,String emailid)
 	{
 	    this.customerid=customerid;
@@ -66,13 +62,9 @@ class customer {
 	        this.cobj=cobj;
 	        this.balance=balance;
 	    }
-	    abstract public boolean withdraw(double amount);
-
-	 
-
-	    
+	    abstract public boolean withdraw(double amount);    
 	}
-	 abstract class  SavingsAcoount extends account
+	 abstract class  SavingsAcoount extends account 
 	{
 	    private double minimumBalance;
 	    

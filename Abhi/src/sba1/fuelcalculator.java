@@ -1,9 +1,6 @@
 package sba1;
-
 import java.util.Scanner;
-
 public class fuelcalculator {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
@@ -31,8 +28,5 @@ public class fuelcalculator {
 		float l=(float) (a*(0.2642));
 		p=p/l;
 		System.out.printf("%.2f",p);
-		
-
 	}
-
 }
